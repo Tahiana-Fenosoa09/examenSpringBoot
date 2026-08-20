@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"controller","dao","service","model","tahiana.examenspringboot"})
+@ComponentScan({"controller","dao","service","model","tahiana.examenspringboot","connection"})
 public class ExamenSpringBootApplication {
 
     public static void main(String[] args) {
